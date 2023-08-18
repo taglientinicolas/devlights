@@ -1,0 +1,188 @@
+.navbar {
+    margin-bottom: 0;
+    padding-right: 20em;
+    padding-left: 20em;
+    display: -moz-inline-box;
+}
+
+.navbar-nav {
+    flex-direction: row !important;
+}
+
+.cart-button {
+    color: #ff0575 !important;
+    border: 2px solid #ff0575;
+    border-radius: 10px;
+    padding: 5px 15px;
+    text-decoration: none;
+    transition: border-color 0.3s, color 0.3s;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.btn-color {
+    color: #ff0575 !important;
+}
+.input-group {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.gradient-border {
+    border: 2px solid transparent;
+    border-image: linear-gradient(to right, yellow, red, #ff0575);
+    border-image-slice: 1;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+.transparent-bg {
+    background: transparent;
+    color: white;
+}
+
+.transparent-text {
+    color: white;
+}
+
+.transparent-bg:focus,
+.transparent-bg:active {
+    background: transparent;
+    color: white;
+}
+
+.card {
+    margin-bottom: 20px;
+    background-color: #333;
+    color: #fff;
+    min-width: 20em;
+    min-height: 24em;
+}
+.card-text{
+    margin-top: 2em;
+}
+.card-title{min-height: 2em;}
+
+footer {
+    margin-top: 20px;
+}
+
+.logo {
+    background-image: url(https://www.citypng.com/public/uploads/preview/hd-steam-square-icon-png-11664331365inobxnriej.png);
+    height: 5em;
+    width: 5em;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.poster {
+    background-image: url(https://www.lavanguardia.com/files/og_thumbnail/uploads/2019/12/03/5fa534dfdc573.png);
+    height: 27em;
+    width: 100%;
+    background-size: cover;
+    background-position-y: center;
+    background-repeat: no-repeat;
+}
+
+.div-results {
+    padding-top: 5em;
+    padding-right: 20em;
+    padding-left: 20em;
+}
+
+.saving-circle {
+    width: 7rem;
+    height: 7rem;
+    border-radius: 50%;
+    background: red;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0px auto;
+    padding: 3%;
+    display: flex;
+    position: absolute;
+    top: -1em;
+    right: -1em;
+}
+
+.saving-circle > h2 {
+    font-family: sans-serif;
+    color: white;
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+
+.gradient-link {
+    display: inline-block;
+    padding: 10px 20px;
+    background: linear-gradient(to right, yellow, red, #9713de);
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+}
+
+.price-container {
+    text-align: center;
+}
+
+.normal-price {
+    text-decoration: line-through;
+    font-style: oblique;
+}
+.sale-price {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.fa-star{
+    font-size: xx-large;
+}
+
+.filled{
+    color: gold;
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    background-color: #333;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.pagination ul {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.pagination li {
+    margin: 0 5px;
+}
+
+.pagination li a {
+    color: #fff;
+    text-decoration: none;
+    background-color: #333;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.pagination li.disabled a {
+    cursor: default;
+    background-color: #666;
+}
+
+.pagination li a:hover {
+    background-color: #555;
+}
